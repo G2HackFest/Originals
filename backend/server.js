@@ -3,6 +3,7 @@ const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
 const authRoutes = require('./routes/auth');
+const auth2Routes=require('./routes/restapi')
 const app = express();
 app.use(cors())
 app.use(express.json());
@@ -10,6 +11,6 @@ mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTop
   .then(() => console.log('MongoDB Atlas connected'))
   .catch(err => console.error('MongoDB connection error:', err));
 app.use('/api/auth', authRoutes);
-
+app.use('/api/restapi', auth2Routes);
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

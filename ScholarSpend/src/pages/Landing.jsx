@@ -59,7 +59,7 @@ const LandingPage = () => {
       <section id="about" className="about">
         <h3>About ScholarSpend</h3>
         <p>
-          Struggling to keep track of your expenses or stick to a budget? BudgetBuddy is here to help! Whether it’s rent, dining, or entertainment in ₹upees, our app keeps you in control. Upload receipt photos or log expenses manually—BudgetBuddy categorizes them (e.g., food, utilities). Set monthly limits, get overspending alerts, and visualize your spending with an intuitive dashboard. Take charge of your finances today!
+          Struggling to keep track of your expenses or stick to a budget? ScholarSpend is here to help! Whether it’s rent, dining, or entertainment in ₹upees, our app keeps you in control. Upload receipt photos or log expenses manually—BudgetBuddy categorizes them (e.g., food, utilities). Set monthly limits, get overspending alerts, and visualize your spending with an intuitive dashboard. Take charge of your finances today!
         </p>
       </section>
       <section id="features" className="features">
