@@ -119,7 +119,7 @@ function Authenticate() {
       </div>
       <div className="auth-header slide-left">
         <img src={logo} alt="BudgetBuddy Logo" className="auth-logo" />
-        <h1>BudgetBuddy</h1>
+        <h1>ScholarSpend</h1>
       </div>
       <div className="auth-toggle slide-left">
         <button className={`toggle-btn ${isLogin ? 'active' : ''}`} onClick={handleToggle}>
