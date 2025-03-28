@@ -126,7 +126,7 @@ function Authenticate() {
           Login
         </button>
         <button className={`toggle-btn ${!isLogin ? 'active' : ''}`} onClick={handleToggle}>
-          Signup
+          Sign Up
         </button>
       </div>
       <div className="auth-content">
