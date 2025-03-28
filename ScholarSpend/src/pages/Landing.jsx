@@ -42,13 +42,13 @@ const LandingPage = () => {
       <header className="header">
         <div className="header-content">
           <img src={logo} alt="BudgetBuddy Logo" className="logo" />
-          <h1>BudgetBuddy</h1>
+          <h1>ScholarSpend</h1>
           
         </div>
       </header>
       <section className="hero">
         <div className="hero-content">
-          <h2>Welcome to BudgetBuddy</h2>
+          <h2>Welcome to ScholarSpend</h2>
           <p>Your personal finance companion to track, manage, and master your ₹upees.</p>
           <button onClick={handleGetStarted} className="cta-button">
             Get Started
@@ -57,13 +57,13 @@ const LandingPage = () => {
         <img src={heroImage} alt="Managing Finances" className="hero-image" />
       </section>
       <section id="about" className="about">
-        <h3>About BudgetBuddy</h3>
+        <h3>About ScholarSpend</h3>
         <p>
           Struggling to keep track of your expenses or stick to a budget? BudgetBuddy is here to help! Whether it’s rent, dining, or entertainment in ₹upees, our app keeps you in control. Upload receipt photos or log expenses manually—BudgetBuddy categorizes them (e.g., food, utilities). Set monthly limits, get overspending alerts, and visualize your spending with an intuitive dashboard. Take charge of your finances today!
         </p>
       </section>
       <section id="features" className="features">
-        <h3>Why Choose BudgetBuddy?</h3>
+        <h3>Why Choose ScholarSpend?</h3>
         <div className="feature-cards">
           <div className="feature-card">
             <div className="card-header">
@@ -95,7 +95,7 @@ const LandingPage = () => {
         </div>
       </section>
       <footer className="footer">
-        <p>Contact us: budgetbuddy004@gmail.com | © 2025 BudgetBuddy</p>
+        <p>Contact us: scholarspend.care@gmail.com | © 2025 ScholarSpend</p>
         <nav className="nav-links">
             <a href="#about">About</a>
             <a href="#features">Features</a>
