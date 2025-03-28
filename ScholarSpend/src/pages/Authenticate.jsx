@@ -246,9 +246,6 @@ function Authenticate() {
                     disabled={otpSent || loading}
                   >
                     <option value="Student">Student</option>
-                    <option value="Professor">Business Man</option>
-                    <option value="Employer">Employee</option>
-                    <option value="Other">Other</option>
                   </select>
                 </div>
                 <button type="submit" className="auth-btn" disabled={loading || (otpSent && !formData.otp)}>
