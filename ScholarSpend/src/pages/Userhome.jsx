@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import '../styles/Userhome.css';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import { User, LogOut, MessageSquare } from 'lucide-react';
+import { User, LogOut, MessageSquare,Users } from 'lucide-react';
 import Chart from 'chart.js/auto';
 import homeImage from '../assets/userhome.png';
 import logo from '../assets/logo.png';
@@ -359,8 +359,8 @@ function Userhome() {
             )}
             <span className="uh-navbar-username">{username || 'User'}</span>
           </div>
-          <button className="uh-navbar-logout" onClick={()=>navigate('/connect')}>
-            <User size={20} /> Track
+          <button className="uh-navbar-logout" onClick={()=>navigate('/connect&split')}>
+            <Users size={20} /> Split
           </button>
           <button className="uh-navbar-logout" onClick={handleLogout}>
             <LogOut size={20} /> Logout
@@ -391,7 +391,7 @@ function Userhome() {
           <div className="uh-expense-tracker">
             <h2>Expense Tracker (Image-Based)</h2>
             <p>If your listed items not shown here means Click Process Image again ☺️</p>
-            <p>Remaining Salary: ₹{parseFloat(salary || 0).toFixed(2)}</p>
+            <p>Remaining Expenditure: ₹{parseFloat(salary || 0).toFixed(2)}</p>
             <input
               type="file"
               accept="image/*"

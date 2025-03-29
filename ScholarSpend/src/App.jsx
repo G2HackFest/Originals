@@ -4,6 +4,7 @@ import LandingPage from './pages/Landing';
 import Authenticate from './pages/Authenticate';
 import Userhome from './pages/Userhome';
 import Profile from './pages/Profile';
+import Connect from './pages/Connect';
 function App() {
   return (
    <BrowserRouter>
@@ -12,6 +13,7 @@ function App() {
     <Route path="/authenticate" element={<Authenticate/>}/>
     <Route path="/userhome" element={<Userhome/>}/>
     <Route path="/profile" element={<Profile/>}/>
+    <Route path="/connect&split" element={<Connect/>}/>
    </Routes>
    </BrowserRouter> 
   )

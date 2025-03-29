@@ -131,7 +131,7 @@ function Profile() {
         <p><strong>Username:</strong> {username || 'N/A'}</p>
         <p><strong>Email:</strong> {email || 'N/A'}</p>
         <div className="profile-salary">
-          <strong>Remaining Salary:</strong>
+          <strong>Add Expenditure:</strong>
           {isEditingSalary ? (
             <div className="profile-salary-edit">
               <input
