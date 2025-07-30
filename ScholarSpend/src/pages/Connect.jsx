@@ -15,7 +15,7 @@ function Connect() {
   const [selectedMembers, setSelectedMembers] = useState([]);
   const [selectedGroup, setSelectedGroup] = useState(null);
   const [expenseDesc, setExpenseDesc] = useState('');
-  const [expenseAmount, setExpenseAmount] = useState('');
+  const [expenseAmount, setExpenseAmount] = useState(''); 
   const [splits, setSplits] = useState({});
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
